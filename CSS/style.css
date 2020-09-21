@@ -1,0 +1,83 @@
+/*GLOBAL*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+.header-container {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 36px;
+    opacity: 0.9;
+}
+
+/*Etch-A-SKETCH*/
+
+.box-container {
+    border: solid 1px #f1f1f1;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    box-shadow: 5px 5px 30px 5px #d5d5d5;
+    display: grid;
+}
+
+.square {
+    box-shadow: 2px 4px 10px #d5d5d5;
+}
+
+/*OPTIONS*/
+
+.options-container {
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.size-container {
+    width: 40%;
+    display: inline-block;
+    border: 1px #d5d5d5 solid;
+    padding: 6px;
+    box-shadow: 2px 4px 10px #d5d5d5;
+
+}
+
+input {
+    width: 50%;
+}
+
+.clear-container {
+    width: 40%;
+
+}
+
+button {
+    border: 1px #d5d5d5 solid;
+    width: 100%;
+    padding: 8px;
+    box-shadow: 2px 4px 10px #d5d5d5;
+    background-color: #fff;
+}
+
+.size-container:hover {
+    background-color: #f6f6f6;
+    transition: 0.25s;
+}
+
+button:hover {
+    background-color: #f6f6f6;
+    transition: 0.25s;
+}

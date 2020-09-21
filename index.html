@@ -5,11 +5,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="/CSS/style.css" type='text/css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
     </head>
     <body>
+        <header>
+            <div class="header-container">
+                <h1>Etch-a-Sketch</h1>                                         
+            </div>
+        </header>
         <main>
-            
+            <div class="box-container" id="box-container"></div> 
         </main>
+            <div class="options-container">
+                <div class="size-container">
+                    <label for="size-input">Size</label>
+                    <input min="0" max="100" id="size-input" class="size-input" type="number">
+                </div>
+                <div class="clear-container">
+                    <button class="clear-button" id="clear-button">Clear</button>
+                </div>
+            </div>   
         <script type='text/javascript' src='/Scripts/script.js'></script>
     </body>
 </html>
